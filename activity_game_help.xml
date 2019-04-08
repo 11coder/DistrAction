@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/vitlogo"
+    tools:context=".GameHelp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textSize="60px"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You have been called at night for an extra class which is very important for exams."
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You have many options of leaving the class like od and food."
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save yourself from getting distracted and reach for the class."
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You need to touch classroom 5 times in order to enter the classroom."
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="If you collide with any of the distractions then game will be over!"
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        />
+    <Button android:text="BACK"
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="#A52A2A"
+        android:layout_marginTop="20dp">
+    </Button>
+
+</LinearLayout>
